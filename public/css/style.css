@@ -219,26 +219,34 @@ a {
     max-height: calc(100vh - 200px);
   }
 }
-
 @media (max-width: 600px) {
-  .chat-form-container {
-    padding: 15px;
-  }
+    .chat-header {
+        padding-bottom: 20px; /* Add spacing below the heading */
+    }
 
-  .chat-form-container form {
-    flex-direction: column;
-  }
+    .leave-room-btn {
+        margin-top: 15px; /* Add margin on top of the button */
+    }
 
-  .chat-form-container input[type='text'] {
-    width: 100%;
-    margin-bottom: 10px;
-  }
+    .chat-form-container {
+        padding: 15px;
+    }
 
-  .btn {
-    width: 100%;
-  }
+    .chat-form-container form {
+        flex-direction: column;
+    }
 
-  .join-container {
-    margin: 40px 10px;
-  }
+    .chat-form-container input[type='text'] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .join-container {
+        margin: 40px 10px;
+    }
 }
+
